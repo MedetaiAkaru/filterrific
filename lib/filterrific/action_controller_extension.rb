@@ -5,8 +5,6 @@
 module Filterrific
   module ActionControllerExtension
 
-    include HasResetFilterrificUrlMixin
-
   protected
 
     # @param model_class [Class]
@@ -99,7 +97,7 @@ module Filterrific
         # Nothing to do, use val as is
         val
       when String
-        helpers.sanitize(val)
+        ActionController::Base.helpers.sanitize(val)
       else
         # Nothing to do, use val as is
         val

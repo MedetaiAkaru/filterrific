@@ -52,8 +52,6 @@ Filterrific major versions match the Ruby on Rails major versions they work with
   `:persistence_id` option.
 * Fix: Direction indicators on sortable headers are now correct.
 * Fix: Make JS event observers work with TurboLinks.
-* Fix: Make reset_filterrific_url available in controller.
-
 
 
 ## [2.0.4] - Mar. 10, 2015
